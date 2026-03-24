@@ -1,4 +1,4 @@
-﻿# Soil Permeability vs. DCP Blow Count Analysis
+﻿# Permeability vs DCP Analysis – Correlating Dynamic Cone Penetrometer Blow Counts with Soil Permeability for Mining & Site Investigation
 
 This project provides a methodology and Python scripts to correlate in-situ **Dynamic Cone Penetrometer (DCP)** blow counts with **saturated hydraulic conductivity ($k_{sat}$)** determined from infiltration tests.
 
