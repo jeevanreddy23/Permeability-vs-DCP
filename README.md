@@ -5,6 +5,12 @@ This project provides a methodology and Python scripts to correlate in-situ **Dy
 ## Overview
 
 The analysis uses field infiltration test data (falling head / slug test) and calculates instantaneous permeability using the **Hvorslev (Case F)** method. This is then correlated with the soil strength/density profile measured by the DCP at corresponding depths.
+Built using real field data from standpipe piezometer tests (Hvorslev Case F method) and DCP testing.
+Developed a power-law correlation: k = a · DCP^b showing permeability drops from ~0.18 m/day (soft soil, DCP=1) to ~0.04 m/day (stiff soil, DCP≥8).
+Automates data processing, statistical fitting (scipy), and professional visualisation with Matplotlib.
+Directly applicable to groundwater monitoring, slope stability, and dewatering design in open-pit mining.
+Technologies: Python, Pandas, NumPy, SciPy, Matplotlib.
+
 
 Key findings of this project (from silty clay site data):
 - Permeability decreases logarithmically as soil density (DCP blows) increases.
